@@ -1,11 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" height="100%">
   <defs>
+    <style>
+      @keyframes footerGlow {
+        0%, 100% { stroke-opacity: 0.8; }
+        50% { stroke-opacity: 0.3; }
+      }
+      @keyframes flow {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .anim-glow { animation: footerGlow 3s infinite ease-in-out; }
+      .anim-flow { stroke-dasharray: 20 10; animation: flow 20s infinite linear; }
+      .mono-text {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+    </style>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#141414" />
-      <stop offset="50%" stop-color="#1c1c1c" />
-      <stop offset="100%" stop-color="#141414" />
+      <stop offset="0%" stop-color="#0e0e10" />
+      <stop offset="50%" stop-color="#16161a" />
+      <stop offset="100%" stop-color="#0a0a0c" />
     </linearGradient>
-    <linearGradient id="footerAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="footerBar" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#c7ff69" />
       <stop offset="25%" stop-color="#7a78ff" />
       <stop offset="50%" stop-color="#00a652" />
@@ -14,10 +29,12 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="80" rx="16" fill="url(#footerBg)" stroke="#2d2d2d" stroke-width="1.5" />
-  <rect width="1160" height="2" x="20" y="78" fill="url(#footerAccent)" />
+  <rect width="1200" height="90" rx="18" fill="url(#footerBg)" stroke="#26262e" stroke-width="1.5" />
+  <rect width="1160" height="2" x="20" y="86" fill="url(#footerBar)" />
 
-  <text x="600" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Fira Code', monospace" font-size="14" font-weight="600" fill="#888888" text-anchor="middle" letter-spacing="1">
-    ENGINEERED FOR HIGH RELIABILITY &amp; SUB-MILLISECOND LATENCY  ·  MATEO PIEDRABUENA
-  </text>
+  <g transform="translate(600, 50)">
+    <text x="0" y="0" class="mono-text" font-size="13" font-weight="600" fill="#a0a0b0" text-anchor="middle" letter-spacing="1.5">
+      ENGINEERED FOR HIGH RELIABILITY &amp; SUB-MILLISECOND LATENCY  ·  MATEO PIEDRABUENA
+    </text>
+  </g>
 </svg>

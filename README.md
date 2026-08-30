@@ -1,32 +1,37 @@
 <div align="center">
 
-  <!-- Native SVG Header (Self-Hosted in Repository) -->
-  <img src="https://raw.githubusercontent.com/Mateo-Piedra22/Mateo-Piedra22/main/assets/header.svg" width="100%" alt="Mateo Piedrabuena Header" />
+  <!-- Animated Vector SVG Header -->
+  <a href="https://github.com/Mateo-Piedra22">
+    <img src="assets/header.svg" width="100%" alt="Mateo Piedrabuena Header" />
+  </a>
 
   <br /><br />
 
-  <!-- Dynamic Animated Typing Subtitle -->
+  <!-- Animated Typing Subtitle -->
   <p align="center">
     <a href="https://github.com/Mateo-Piedra22">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=900&color=C7FF69&background=14141400&center=true&vCenter=true&multiline=false&width=800&lines=Creator+%26+Lead+Architect+of+ArgenPOS;Computer+Engineering+Student+%40+UNL+(Argentina);Full-Stack+%26+Low-Level+Systems+Engineer;Creator+of+ClineMarket+%26+Discord+Archive+Pro;Founder+%26+Tech+Lead+%40+MotionA+Studio" alt="Typing Subtitle" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2400&pause=900&color=C7FF69&background=14141400&center=true&vCenter=true&multiline=false&width=800&lines=Creator+%26+Lead+Architect+of+ArgenPOS;Computer+Engineering+Student+%40+UNL+(Argentina);Full-Stack+%26+Low-Level+Systems+Engineer;Creator+of+ClineMarket+%26+Discord+Archive+Pro;Founder+%26+Tech+Lead+%40+MotionA+Studio" alt="Typing Subtitle" />
     </a>
   </p>
 
-  <!-- Metric Badges -->
+  <!-- Metric Badges Row -->
   <p align="center">
-    <a href="https://github.com/Mateo-Piedra22"><img src="https://img.shields.io/badge/LOCATION-Santa%20Fe%2C%20Argentina-141414?style=for-the-badge&logo=googlemaps&logoColor=c7ff69&labelColor=1a1a1a" alt="Location" /></a>
-    <a href="https://motiona.xyz"><img src="https://img.shields.io/badge/STUDIO-MotionA-141414?style=for-the-badge&logo=safari&logoColor=7a78ff&labelColor=1a1a1a" alt="MotionA" /></a>
-    <a href="mailto:piedrabuena.mateo03@gmail.com"><img src="https://img.shields.io/badge/CONTACT-piedrabuena.mateo03%40gmail.com-141414?style=for-the-badge&logo=gmail&logoColor=ff6d38&labelColor=1a1a1a" alt="Email" /></a>
-    <img src="https://komarev.com/ghpvc/?username=Mateo-Piedra22&label=PROFILE%20VIEWS&color=c7ff69&style=for-the-badge" alt="Profile Views" />
+    <a href="https://github.com/Mateo-Piedra22"><img src="https://img.shields.io/badge/LOCATION-Santa%20Fe%2C%20Argentina-141414?style=flat-square&logo=googlemaps&logoColor=c7ff69&labelColor=1f1f24" alt="Location" /></a>
+    &nbsp;
+    <a href="https://motiona.xyz"><img src="https://img.shields.io/badge/STUDIO-MotionA-141414?style=flat-square&logo=safari&logoColor=7a78ff&labelColor=1f1f24" alt="MotionA" /></a>
+    &nbsp;
+    <a href="mailto:piedrabuena.mateo03@gmail.com"><img src="https://img.shields.io/badge/CONTACT-piedrabuena.mateo03%40gmail.com-141414?style=flat-square&logo=gmail&logoColor=ff6d38&labelColor=1f1f24" alt="Email" /></a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=Mateo-Piedra22&label=PROFILE%20VIEWS&color=c7ff69&style=flat-square" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-## Executive Profile & Systems Engineering Focus
+## Executive Profile & Systems Architecture Focus
 
-I am a **Computer Engineering student** at the **National University of the Littoral (UNL)** in Santa Fe, Argentina, and a **Systems & Full-Stack Architect**. My work focuses on high-reliability transactional software, native hardware communication layers, offline-first architectures, developer tooling, and distributed systems.
+I am a **Computer Engineering student** at the **National University of the Littoral (UNL)** in Santa Fe, Argentina, and a **Systems & Full-Stack Architect**. My engineering centers on high-reliability distributed engines, native hardware communication layers, offline-first cashier runtimes, developer control planes, and low-latency desktop applications.
 
 ```
 +-----------------------------------------------------------------------------------------------+
@@ -38,20 +43,13 @@ I am a **Computer Engineering student** at the **National University of the Litt
 +-----------------------------------------------------------------------------------------------+
 ```
 
-### Core Architecture & Systems Principles
-
-- **Local-First Sovereignty**: Applications must operate with full fidelity regardless of network availability. Critical sales and state data reside in ACID-compliant local engines with background cloud reconciliation.
-- **Hardware-Level Interfacing**: Direct bit-level communication with commercial hardware via serial buses (RS-232, COM), raw USB, and native Windows daemon services.
-- **Zero-Friction Distribution**: Standalone self-contained executables and CLI tools requiring zero external runtime pre-installation on client machines.
-- **Defensive Engineering**: Sandboxed subprocess execution, memory-safe buffer handling, path traversal barriers, and token-authenticated local loopback protocols.
-
 ---
 
-## Flagship Systems & Core Engineering Showcase
+## Flagship Systems Showcase
 
 <br />
 
-### 1. [ArgenPOS & ArgenPOS Bridge](https://github.com/Mateo-Piedra22/argenpos-bridge-releases) — *Enterprise Point of Sale & Native Hardware Bridge*
+### 1. [ArgenPOS & ArgenPOS Bridge](https://github.com/Mateo-Piedra22/argenpos-bridge-releases) — *Enterprise Commercial POS & Native Hardware Bridge*
 
 **ArgenPOS** is a high-availability Point of Sale and retail transaction platform engineered for commercial retail chains, supermarkets, and hospitality environments requiring continuous transaction processing and millisecond-level hardware execution.
 
@@ -76,9 +74,9 @@ I am a **Computer Engineering student** at the **National University of the Litt
              +-----------------------+     +-----------------------+       +-----------------------+      +-----------------------+
 ```
 
-#### Key Technical Capabilities
+#### Technical Layer Specifications
 
-| System Layer | Implementation Specification |
+| Architecture Layer | Core Implementation Details |
 | :--- | :--- |
 | **Native Daemon** | Windows background service distributed as a standalone `.exe` without Node or runtime dependencies. |
 | **Hardware Driver Engine** | Raw bitstream ESC/POS generation with bitmap conversion, codepage mapping, and cut command queuing. |
@@ -87,8 +85,9 @@ I am a **Computer Engineering student** at the **National University of the Litt
 | **Security Layer** | Local loopback isolation (`127.0.0.1`), shared cryptographic tokens, and zero outbound telemetry exposure. |
 
 <p align="left">
-  <a href="https://github.com/Mateo-Piedra22/argenpos-bridge-releases"><img src="https://img.shields.io/badge/DOWNLOAD-Latest%20Windows%20Release%20(.exe)-c7ff69?style=for-the-badge&logo=windows&logoColor=141414&labelColor=1a1a1a" alt="Download" /></a>
-  <img src="https://img.shields.io/badge/STATUS-Production%20Active-7a78ff?style=for-the-badge&labelColor=1a1a1a" alt="Status" />
+  <a href="https://github.com/Mateo-Piedra22/argenpos-bridge-releases"><img src="https://img.shields.io/badge/DOWNLOAD-Latest%20Windows%20Release%20(.exe)-c7ff69?style=flat-square&logo=windows&logoColor=141414&labelColor=1f1f24" alt="Download" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/STATUS-Production%20Active-7a78ff?style=flat-square&labelColor=1f1f24" alt="Status" />
 </p>
 
 ---
@@ -108,13 +107,16 @@ I am a **Computer Engineering student** at the **National University of the Litt
 +--------------------------------------------------------------------------------------------------------------------+
 ```
 
-- **Live Filesystem Reconciliation**: Probes active VS Code, Claude Desktop, and Cline CLI configuration paths to dynamically reconcile live disk state against catalog definitions.
-- **Project-Scoped Installation**: Supports scoped primitive execution targeting isolated project workspaces (`--scope workspace`) with persistent workspace history.
-- **Automated Verification Pipeline**: Headless Chrome DevTools Protocol (CDP) screenshot capture hook and full cross-platform CI matrix testing on every push.
+| Component | Technical Capabilities |
+| :--- | :--- |
+| **Reconciliation Engine** | Probes active VS Code, Claude Desktop, and Cline CLI configuration paths to dynamically reconcile live disk state against catalog definitions. |
+| **Scoped Installation** | Supports scoped primitive execution targeting isolated project workspaces (`--scope workspace`) with persistent workspace history. |
+| **Verification Pipeline**| Headless Chrome DevTools Protocol (CDP) automated screenshot capture hook and full cross-platform CI matrix testing on every push. |
 
 <p align="left">
-  <a href="https://github.com/Mateo-Piedra22/ClineMarket"><img src="https://img.shields.io/badge/REPO-Mateo--Piedra22%2FClineMarket-c7ff69?style=for-the-badge&logo=github&logoColor=141414&labelColor=1a1a1a" alt="Repo" /></a>
-  <img src="https://img.shields.io/badge/LICENSE-Apache%202.0-7a78ff?style=for-the-badge&labelColor=1a1a1a" alt="License" />
+  <a href="https://github.com/Mateo-Piedra22/ClineMarket"><img src="https://img.shields.io/badge/REPO-Mateo--Piedra22%2FClineMarket-c7ff69?style=flat-square&logo=github&logoColor=141414&labelColor=1f1f24" alt="Repo" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/LICENSE-Apache%202.0-7a78ff?style=flat-square&labelColor=1f1f24" alt="License" />
 </p>
 
 ---
@@ -124,18 +126,18 @@ I am a **Computer Engineering student** at the **National University of the Litt
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">Discord Archive Pro</h3>
+      <h3 align="center"><a href="https://github.com/Mateo-Piedra22/Discord-Archive-Pro">Discord Archive Pro</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/RUNTIME-Electron%20%7C%20Node.js-ff6d38?style=flat-square&labelColor=141414" alt="Runtime" />
-        <img src="https://img.shields.io/badge/STORAGE-SQLite%20(FTS5)-ffc412?style=flat-square&labelColor=141414" alt="Storage" />
+        <img src="https://img.shields.io/badge/RUNTIME-Electron%20%7C%20Node.js-ff6d38?style=flat-square&labelColor=1f1f24" alt="Runtime" />
+        <img src="https://img.shields.io/badge/STORAGE-SQLite%20(FTS5)-ffc412?style=flat-square&labelColor=1f1f24" alt="Storage" />
       </p>
       <p>High-fidelity desktop application engineered for cold archival, indexing, and offline browsing of complete Discord communities, voice logs, threads, and multi-gigabyte media attachments with full-text search indexing.</p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">IronTrain & IronHub</h3>
+      <h3 align="center"><a href="https://github.com/Mateo-Piedra22/IronTrain">IronTrain & IronHub</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/STACK-React%20%7C%20TypeScript-00a652?style=flat-square&labelColor=141414" alt="Stack" />
-        <img src="https://img.shields.io/badge/DATABASE-PostgreSQL-478bff?style=flat-square&labelColor=141414" alt="Database" />
+        <img src="https://img.shields.io/badge/STACK-React%20%7C%20TypeScript-00a652?style=flat-square&labelColor=1f1f24" alt="Stack" />
+        <img src="https://img.shields.io/badge/DATABASE-PostgreSQL-478bff?style=flat-square&labelColor=1f1f24" alt="Database" />
       </p>
       <p>Cross-platform fitness analytics and training progression system featuring dynamic periodization calculators, set-by-set velocity tracking, and distributed community workout logging.</p>
     </td>
@@ -165,15 +167,10 @@ I am a **Computer Engineering student** at the **National University of the Litt
 
 ---
 
-## Live Performance & GitHub Analytics
+## Live Performance & Activity Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mateo-Piedra22&show_icons=true&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&icon_color=7a78ff&text_color=fdf9f0&rank_icon=github" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mateo-Piedra22&layout=compact&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&text_color=fdf9f0" alt="Top Languages" width="49%" />
-</div>
-
-<div align="center" style="margin-top: 10px;">
-  <img src="https://streak-stats.demolab.com/?user=Mateo-Piedra22&theme=tokyonight&hide_border=true&background=141414&ring=c7ff69&fire=ff6d38&currStreakLabel=c7ff69&sideLabels=fdf9f0&dates=888888" alt="Streak Stats" width="80%" />
+  <img src="https://streak-stats.demolab.com/?user=Mateo-Piedra22&theme=tokyonight&hide_border=true&background=141414&ring=c7ff69&fire=ff6d38&currStreakLabel=c7ff69&sideLabels=fdf9f0&dates=888888" alt="Streak Stats" width="85%" />
 </div>
 
 ---
@@ -192,24 +189,20 @@ I am a **Computer Engineering student** at the **National University of the Litt
 
 <div align="center">
   <a href="https://github.com/Mateo-Piedra22">
-    <img src="https://img.shields.io/badge/GITHUB-Mateo--Piedra22-141414?style=for-the-badge&logo=github&logoColor=c7ff69&labelColor=232323" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-Mateo--Piedra22-141414?style=flat-square&logo=github&logoColor=c7ff69&labelColor=1f1f24" alt="GitHub" />
   </a>
   &nbsp;
   <a href="https://motiona.xyz">
-    <img src="https://img.shields.io/badge/STUDIO%20PORTFOLIO-motiona.xyz-141414?style=for-the-badge&logo=safari&logoColor=7a78ff&labelColor=232323" alt="Website" />
+    <img src="https://img.shields.io/badge/STUDIO%20PORTFOLIO-motiona.xyz-141414?style=flat-square&logo=safari&logoColor=7a78ff&labelColor=1f1f24" alt="Website" />
   </a>
   &nbsp;
   <a href="mailto:piedrabuena.mateo03@gmail.com">
-    <img src="https://img.shields.io/badge/DIRECT%20EMAIL-piedrabuena.mateo03%40gmail.com-141414?style=for-the-badge&logo=gmail&logoColor=ff6d38&labelColor=232323" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://discord.com">
-    <img src="https://img.shields.io/badge/DISCORD-Community-141414?style=for-the-badge&logo=discord&logoColor=478bff&labelColor=232323" alt="Discord" />
+    <img src="https://img.shields.io/badge/DIRECT%20EMAIL-piedrabuena.mateo03%40gmail.com-141414?style=flat-square&logo=gmail&logoColor=ff6d38&labelColor=1f1f24" alt="Email" />
   </a>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mateo-Piedra22/Mateo-Piedra22/main/assets/footer.svg" width="100%" alt="Footer Banner" />
+  <img src="assets/footer.svg" width="100%" alt="Footer Banner" />
 </div>
