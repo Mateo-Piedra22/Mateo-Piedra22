@@ -1,26 +1,23 @@
 <div align="center">
 
-  <!-- Header Animated Wave Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,14,20&height=240&section=header&text=Mateo%20Piedrabuena&fontSize=54&fontAlignY=36&animation=fadeIn&desc=Computer%20Engineering%20%40%20UNL%20%7C%20Creator%20of%20ArgenPOS%20%26%20ClineMarket&descFontSize=20&descAlignY=62&fontColor=c7ff69" width="100%" alt="Mateo Piedrabuena Header" />
+  <!-- Native SVG Header (Self-Hosted in Repository) -->
+  <img src="https://raw.githubusercontent.com/Mateo-Piedra22/Mateo-Piedra22/main/assets/header.svg" width="100%" alt="Mateo Piedrabuena Header" />
 
-  <!-- Dynamic Typing Subtitle -->
+  <br /><br />
+
+  <!-- Dynamic Animated Typing Subtitle -->
   <p align="center">
     <a href="https://github.com/Mateo-Piedra22">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2600&pause=900&color=C7FF69&background=14141400&center=true&vCenter=true&multiline=false&width=780&lines=Creator+%26+Lead+Architect+of+ArgenPOS;Computer+Engineering+Student+%40+UNL+(Argentina);Full-Stack+%26+Low-Level+Systems+Engineer;Creator+of+ClineMarket+%26+Discord+Archive+Pro;Founder+%26+Tech+Lead+%40+MotionA+Studio" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=900&color=C7FF69&background=14141400&center=true&vCenter=true&multiline=false&width=800&lines=Creator+%26+Lead+Architect+of+ArgenPOS;Computer+Engineering+Student+%40+UNL+(Argentina);Full-Stack+%26+Low-Level+Systems+Engineer;Creator+of+ClineMarket+%26+Discord+Archive+Pro;Founder+%26+Tech+Lead+%40+MotionA+Studio" alt="Typing Subtitle" />
     </a>
   </p>
 
-  <!-- Metric Badges & Status -->
+  <!-- Metric Badges -->
   <p align="center">
     <a href="https://github.com/Mateo-Piedra22"><img src="https://img.shields.io/badge/LOCATION-Santa%20Fe%2C%20Argentina-141414?style=for-the-badge&logo=googlemaps&logoColor=c7ff69&labelColor=1a1a1a" alt="Location" /></a>
     <a href="https://motiona.xyz"><img src="https://img.shields.io/badge/STUDIO-MotionA-141414?style=for-the-badge&logo=safari&logoColor=7a78ff&labelColor=1a1a1a" alt="MotionA" /></a>
     <a href="mailto:piedrabuena.mateo03@gmail.com"><img src="https://img.shields.io/badge/CONTACT-piedrabuena.mateo03%40gmail.com-141414?style=for-the-badge&logo=gmail&logoColor=ff6d38&labelColor=1a1a1a" alt="Email" /></a>
     <img src="https://komarev.com/ghpvc/?username=Mateo-Piedra22&label=PROFILE%20VIEWS&color=c7ff69&style=for-the-badge" alt="Profile Views" />
-  </p>
-
-  <!-- GitHub Profile Trophies -->
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=Mateo-Piedra22&theme=radical&no-frame=true&no-bg=true&margin_w=10&margin_h=10" alt="GitHub Trophies" />
   </p>
 
 </div>
@@ -29,22 +26,22 @@
 
 ## Executive Profile & Systems Engineering Focus
 
-I am a **Computer Engineering student** at the **National University of the Littoral (UNL)** in Santa Fe, Argentina, and a **Systems & Full-Stack Architect**. My work centers on high-reliability distributed systems, native hardware interfacing, offline-first transaction engines, developer control planes, and low-latency desktop runtimes.
+I am a **Computer Engineering student** at the **National University of the Littoral (UNL)** in Santa Fe, Argentina, and a **Systems & Full-Stack Architect**. My work focuses on high-reliability transactional software, native hardware communication layers, offline-first architectures, developer tooling, and distributed systems.
 
 ```
 +-----------------------------------------------------------------------------------------------+
-|  ACADEMIC INSTITUTION   : Universidad Nacional del Litoral (UNL), Santa Fe, Argentina         |
-|  PRIMARY DISCIPLINE     : Computer Engineering (Ingenieria en Informatica)                    |
-|  FLAGSHIP SYSTEMS       : ArgenPOS (Commercial POS & Hardware Bridge) · Cline Marketplace    |
+|  ACADEMIC DISCIPLINE    : Computer Engineering (Ingenieria en Informatica)                    |
+|  INSTITUTION            : Universidad Nacional del Litoral (UNL), Santa Fe, Argentina         |
+|  FLAGSHIP SYSTEMS       : ArgenPOS (Enterprise POS & Hardware Bridge) · Cline Marketplace    |
 |  VENTURE & STUDIO       : MotionA Studio (https://motiona.xyz)                                |
-|  ENGINEERING SPECIALTY  : Hardware Protocols · IPC · Local-First Engines · AI Control Planes  |
+|  CORE SPECIALIZATION    : Hardware Protocols · IPC · Local-First Engines · AI Control Planes  |
 +-----------------------------------------------------------------------------------------------+
 ```
 
 ### Core Architecture & Systems Principles
 
-- **Local-First Sovereignty**: Applications must operate with full fidelity regardless of network availability. Data is stored in ACID-compliant local engines with background reconciliation.
-- **Hardware-Level Integration**: Direct bit-level communication with commercial hardware via serial buses (RS-232, COM), raw USB, and native Windows daemon services.
+- **Local-First Sovereignty**: Applications must operate with full fidelity regardless of network availability. Critical sales and state data reside in ACID-compliant local engines with background cloud reconciliation.
+- **Hardware-Level Interfacing**: Direct bit-level communication with commercial hardware via serial buses (RS-232, COM), raw USB, and native Windows daemon services.
 - **Zero-Friction Distribution**: Standalone self-contained executables and CLI tools requiring zero external runtime pre-installation on client machines.
 - **Defensive Engineering**: Sandboxed subprocess execution, memory-safe buffer handling, path traversal barriers, and token-authenticated local loopback protocols.
 
@@ -171,13 +168,12 @@ I am a **Computer Engineering student** at the **National University of the Litt
 ## Live Performance & GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mateo-Piedra22&show_icons=true&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&icon_color=7a78ff&text_color=fdf9f0&rank_icon=github" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mateo-Piedra22&layout=compact&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&text_color=fdf9f0" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mateo-Piedra22&show_icons=true&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&icon_color=7a78ff&text_color=fdf9f0&rank_icon=github" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mateo-Piedra22&layout=compact&theme=tokyonight&hide_border=true&bg_color=141414&title_color=c7ff69&text_color=fdf9f0" alt="Top Languages" width="49%" />
 </div>
 
 <div align="center" style="margin-top: 10px;">
-  <img src="https://streak-stats.demolab.com/?user=Mateo-Piedra22&theme=tokyonight&hide_border=true&background=141414&ring=c7ff69&fire=ff6d38&currStreakLabel=c7ff69&sideLabels=fdf9f0&dates=888888" alt="Streak Stats" width="49%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mateo-Piedra22&theme=github-compact&bg_color=141414&color=c7ff69&line=7a78ff&point=ff6d38&area=true&hide_border=true" alt="Activity Graph" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=Mateo-Piedra22&theme=tokyonight&hide_border=true&background=141414&ring=c7ff69&fire=ff6d38&currStreakLabel=c7ff69&sideLabels=fdf9f0&dates=888888" alt="Streak Stats" width="80%" />
 </div>
 
 ---
@@ -215,5 +211,5 @@ I am a **Computer Engineering student** at the **National University of the Litt
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,14,10&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://raw.githubusercontent.com/Mateo-Piedra22/Mateo-Piedra22/main/assets/footer.svg" width="100%" alt="Footer Banner" />
 </div>
